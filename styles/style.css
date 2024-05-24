@@ -1,0 +1,11 @@
+@font-face {
+    font-family: title-font;
+    src: url(./Norse-Bold.otf);
+}
+body{
+    margin: 0;
+}
+.first-title{
+    font-family: title-font;
+}
+
