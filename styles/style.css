@@ -2,10 +2,70 @@
     font-family: title-font;
     src: url(./Norse-Bold.otf);
 }
+@font-face {
+    font-family: marvel-font;
+    src: url(./MarvelRegular-Dj83.ttf);
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    display: flex;
+    color: white;
 }
-.first-title{
-    font-family: title-font;
+.title img{
+    width: 50px;
+    height: 80px;
+    /* background-color: maroon; */
+    /* border-radius: 8px; */
+    /* border: 5px solid black; */
+    opacity: 1;
+    
 }
+.title{
+    font-family: marvel-font;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: maroon;
+    padding: 8px;
+    /* margin: 160px; */
+    /* border-radius: 16px; */
+    background-image: url(../images/main-logo-img.jpg);
+    background-size: cover;
+    height:100vh;
+    width:30%;
+    position: relative;
+    overflow: hidden;
 
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ED1C24;
+    color: white;
+    padding:16px;
+    border-radius: 16px;
+    position: absolute;
+    top:50px;
+    gap:1rem;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.title-text{
+    letter-spacing: 0.10em;
+    font-weight: 900;
+    font-size: 2rem;
+}
+.wrapper:hover{
+    background-color: skyblue;
+    color: #ED1C24;
+    cursor: pointer;
+}
