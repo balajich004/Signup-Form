@@ -13,7 +13,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+    background-color: rgb(225, 66, 66);
     display: flex;
     color: white;
 }
@@ -48,7 +48,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ED1C24;
+    background-color: rgb(225, 66, 66);
     color: white;
     padding:16px;
     border-radius: 16px;
@@ -68,4 +68,34 @@ body{
     background-color: skyblue;
     color: #ED1C24;
     cursor: pointer;
+}
+.form-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 70%;
+    gap: 1rem;
+}
+.quote{
+    display: flex;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+    color: #ED1C24;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 2rem;
+}
+.quote::before{
+    content:"'";
+}
+.author{
+    font-family: title-font;
+    font-size: 2rem;
 }
