@@ -21,29 +21,29 @@
            <form action="#" method="get">
             <div class="first-half">
             <div class="first">
-                <label for="first-name">First Name</label>
-                <input type="text" name="first-name" id="first-name" class="input" placeholder="Balaji">
+                <label for="first-name">First Name*</label>
+                <input type="text" name="first-name" id="first-name" class="input" minlength="4" maxlength="8" placeholder="Balaji">
             </div>
             <div class="second">
-                <label for="last-name">Last Name</label>
+                <label for="last-name">Last Name*</label>
                 <input type="text" name="last-name" id="last-name" class="input" placeholder="Chennupati">
             </div>
             <div class="third">
-                <label for="email">E-mail</label>
+                <label for="email">E-mail*</label>
                 <input type="email" name="email" id="email" class="input" placeholder="someone@something.com">
             </div>
             <div class="fourth">
-                <label for="phone">Phone</label>
+                <label for="phone">Phone*</label>
                 <input type="text" name="phone" id="phone" class="input" placeholder="10 digits">
             </div>
         </div>
         <div class="second-half">
             <div class="fifth">
-                <label for="password">Password</label>
+                <label for="password">Password*</label>
                 <input type="password" name="password" id="password" class="input" placeholder="password">
             </div>
             <div class="sixth">
-                <label for="cpassword">Confirm Password</label>
+                <label for="cpassword">Confirm Password*</label>
                 <input type="password" name="cpassword" id="cpassword" class="input" placeholder="confirm password">
             </div>
             <div class="seventh">
@@ -67,9 +67,19 @@
                 </select>
             </div>
             </div>
+            
            </form> 
+           <div class="submit">
+            <button type="submit">Submit</button>
         </div>
-        <div class="buttons">buttons</div>
+        </div>
+        <div class="buttons">
+           
+        </div>
     </div>
+    <div class="footer">
+        This project is made by <a href="https://github.com/balajich004" target="_blank" rel="noopener noreferrer">Ch.Balaji</a>
+    </div>
+    <script src="./scripts/script.js"></script>
 </body>
 </html>

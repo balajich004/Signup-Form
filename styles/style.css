@@ -112,6 +112,7 @@ form{
     padding: 2rem;
     flex-wrap: wrap;
 }
+
 .first-half{
     align-self: flex-start;
     display: flex;
@@ -168,9 +169,58 @@ option{
         form {
             gap: 10px; 
             height: 70vh;
-            border: 1px solid black;
+            /* flex-direction: column; */
+            /* border: 1px solid black; */
         }
         .title{
             height:100vh;
         }
+        .submit button{
+            margin-top:20px;
+            /* position: absolute;
+            bottom: 0px; */
+            margin-right: 30px;
+            /* top:100px */
+            /* left: 80px; */
+        }
     }
+.submit button{
+    padding: 20px;
+    background-color: skyblue;
+    border-radius: 8px;
+    border: none;
+    /* border-color: coral; */
+    color: #ED1C24;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-left: 40%;
+    margin-bottom: 10px;
+    /* margin-top: 90%; */
+    /* justify-self: center; */
+    /* align-self: center; */
+}
+.submit button:hover{
+    cursor: pointer;
+    background-color: yellow;
+}
+.submit button:active{
+    background-color: green;
+}
+.footer {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 10px 0;
+    background-color: skyblue;
+    padding: 16px;
+    color: #ED1C24;
+    /* border-radius: 8px; */
+    font-weight: bold;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 30%;
+}
+.footer a{
+    text-decoration: none;
+    color: darkcyan;
+} 
