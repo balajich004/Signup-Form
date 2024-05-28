@@ -38,3 +38,6 @@ Array.from(inputs).forEach(input =>{
         console.log(e.target.name);
     });
 });
+document.getElementById("submit").addEventListener("click", function() {
+    window.location.href = "../pages/thanks.html";
+});

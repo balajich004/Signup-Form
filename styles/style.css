@@ -108,7 +108,7 @@ body{
 form{
     display: flex;
     /* justify-content: space-between; */
-    gap:10rem;
+    /* gap:1rem; */
     padding: 2rem;
     flex-wrap: wrap;
 }
@@ -138,7 +138,7 @@ label::after{
     display: inline-block;
     padding: 15px;
     /* width:50%; */
-    margin-left:15% ;
+    margin-left:25% ;
     font-size: 2rem;
     /* font-family: marvel-font; */
     font-weight: bold;
