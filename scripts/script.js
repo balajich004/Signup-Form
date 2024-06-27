@@ -39,5 +39,5 @@ Array.from(inputs).forEach(input =>{
     });
 });
 document.getElementById("submit").addEventListener("click", function() {
-    window.location.href = "../pages/thanks.html";
+    window.location.href = "./pages/thanks.html";
 });
